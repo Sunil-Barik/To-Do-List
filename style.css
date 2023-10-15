@@ -1,0 +1,181 @@
+*{
+
+padding:0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: sans-serif;
+text-decoration: none;
+list-style: none;
+scroll-behavior: smooth;
+
+}
+
+body{
+        background-color: #012f46;
+        width: 100%;
+        height: 100%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 7%;
+    background: transparent;
+}
+.logo{
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+}
+span{
+
+color: tomato;
+
+}
+
+.navlist {
+    display: flex;   
+}
+.navlist a{
+
+font-size: 15px;
+font-weight: bold;
+margin-left: 40px;
+color: white;
+transition: .5s;
+
+
+}
+.navlist a:hover{
+    color: tomato;
+
+}
+
+
+section{
+    padding: 110px 16% 90px;
+}
+
+.Hero{
+    height: 100vh;
+    width: 100%;
+    background: url(image.png);
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+    display:flex ;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+.main-content{
+    color: white;
+    margin-top: 20%;
+}
+.main-content h4{
+    font-size: 20px;
+}
+.main-content h1{
+    font-size: 35px;
+}
+.main-content p{
+    width:70%;
+    height: 50%;
+    margin-top: 30px;
+    
+}
+.social{
+    padding-top: 50px;
+}
+.social i{
+
+    display: inline-flex;
+    color: tomato;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    backdrop-filter: brightness(88%);
+    font-size: 20px;
+    margin-right: 17px;
+    box-shadow: 0 0 20px transparent;
+    cursor: pointer;
+    transition: all .50s ease;
+
+    
+}
+
+.social i:hover{
+transform: scale(1.2);
+box-shadow: 0 0 20px white;
+
+
+}
+
+.main-btn{
+    margin-top: 50px;
+}
+
+.btn{
+    padding: 11px 26px;
+    background-color:tomato;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 5px;
+   
+}
+
+.btn:hover{
+background-color:black ;
+font-weight: bold;
+    box-shadow: 0 0 15px white;
+    transform: scale(0.7);
+    transition: .3s;
+
+}
+ .btn-2{
+    color: white;
+    background-color: black;
+    margin-left: 30px;
+    padding:  11px 26px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-2:hover{
+    font-weight: bold;
+    background-color: tomato;
+    box-shadow: 0 0 15px white;
+    transform: scale(0.7);
+    transition: .3s;
+
+}
+.about{
+    width: 100%;
+    height: 100%;
+}
+.about-img img{
+margin-top: 40px;
+    border-radius: 50%;
+    border: 5px solid tomato;
+    box-shadow:0 0 10px rgb(255, 255, 255) ;
+
+
+}
+header .sticky{
+    background:#b2d3e4 ;
+    box-shadow: 0 .1rem 1rem rgba(158, 151, 151, 0.2);
+    padding: 16px 16%;
+
+}
+.exp{
+
+display: inline-flex;
+
+
+}
